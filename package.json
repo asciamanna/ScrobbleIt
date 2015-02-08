@@ -1,0 +1,23 @@
+{
+  "name": "scrobbleit",
+  "version": "1.0.0",
+  "description": "Manual Scrobbler",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "author": "Anthony Sciamanna",
+  "license": "ISC",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.2.x"
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "jade": "^1.9.2",
+    "morgan": "^1.5.1",
+    "nib": "*",
+    "stylus": "*"
+  }
+}
